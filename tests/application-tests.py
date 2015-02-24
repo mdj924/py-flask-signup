@@ -50,6 +50,10 @@ class AppTestCase(unittest.TestCase):
         """ Test that we can authenticate as a user """
         self.assertTrue(1)
 
+    def test_test(self):
+        """ Test that we can create a new testr """
+        self.assertTrue(1)
+
 
 if __name__ == '__main__':
     unittest.main()
